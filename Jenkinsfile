@@ -11,8 +11,9 @@ pspipeline {
         // This can be http or https
         NEXUS_PROTOCOL = "http"
         // Where your Nexus is running
-        NEXUS_URL = "http://192.168.30.20:8081/repository/devops/"
+        NEXUS_URL = "http://192.168.30.20:8081"
         // Repository where we will upload the artifact
+         NEXUS_REPOSITORY = "LoginWebApp"
    
         // Jenkins credential id to authenticate to Nexus OSS
         NEXUS_CREDENTIAL_ID = "nc"
