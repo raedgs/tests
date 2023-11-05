@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         maven "M2_HOME"
-        jdk "Java8"
+        jdk "JAVA_HOME"
     }
 
     environment {
