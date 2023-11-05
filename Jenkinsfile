@@ -13,7 +13,7 @@ pspipeline {
         // Where your Nexus is running
         NEXUS_URL = "http://192.168.30.20:8081"
         // Repository where we will upload the artifact
-         NEXUS_REPOSITORY = "LoginWebApp"
+         NEXUS_REPOSITORY = "maven-releases"
    
         // Jenkins credential id to authenticate to Nexus OSS
         NEXUS_CREDENTIAL_ID = "nc"
